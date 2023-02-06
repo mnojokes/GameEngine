@@ -1,0 +1,12 @@
+{
+  "Material": {
+    "Blend": "NoBlend",
+    "Color": {
+      "R": 1.0,
+      "G": 0.49,
+      "B": 0.0,
+      "A": 1.0
+    },
+    "Texture": "PlainWhite"
+  }
+}

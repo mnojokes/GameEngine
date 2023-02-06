@@ -1,0 +1,7 @@
+{
+  "Model": {
+    "VertexLayout": "VertexTexCoordColor",
+    "CullMode": "Back",
+    "Mesh": "VertexTexCoordColorQuad"
+  }
+}

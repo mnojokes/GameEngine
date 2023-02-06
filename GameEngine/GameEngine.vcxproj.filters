@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\App">
+      <UniqueIdentifier>{0f6bc79d-5363-493a-b304-14860383275b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\App\Window">
+      <UniqueIdentifier>{cbd526eb-76ee-4940-a4b1-031bfebfb25a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{feb600eb-b45d-4678-aaf9-adb326861a0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Input">
+      <UniqueIdentifier>{beb69110-9e2d-4e62-8057-02862c4c2299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Messaging">
+      <UniqueIdentifier>{cc8d67a9-7ebc-45a6-a302-3b73dce89889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Singleton">
+      <UniqueIdentifier>{7dbeef1f-ba23-4591-b0c8-298528a529c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Systems">
+      <UniqueIdentifier>{d37c6a20-8a00-4586-b73e-1dac8fea6f72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Systems\GraphicsSystem">
+      <UniqueIdentifier>{87333c21-18cc-4080-ac3c-8d522f206f1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Systems\GraphicsSystem\GraphicsComponent">
+      <UniqueIdentifier>{202bb23f-7d17-4d41-b16c-d1dff73f06b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Systems\GraphicsSystem\DirectXUtil">
+      <UniqueIdentifier>{8476b502-ce3a-40c8-b9b2-818c0be1e65e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Systems\FileSystem">
+      <UniqueIdentifier>{e7067498-e9cf-449b-86dc-8704df85f469}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Systems\FileSystem\Utilities">
+      <UniqueIdentifier>{c14b1853-49e1-4a77-8f0d-563bef5f5514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Systems\GameplaySystem">
+      <UniqueIdentifier>{ba91a319-62d7-4ab6-b69d-c6796b3322cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Systems\PhysicsSystem">
+      <UniqueIdentifier>{2ed5d7d0-f145-4f25-8310-faa1aa4e0a01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Systems\PhysicsSystem\PhysicsComponent">
+      <UniqueIdentifier>{b5705ded-7046-450e-bec4-4648217fac52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Systems\PhysicsSystem\SceneComponent">
+      <UniqueIdentifier>{5d4d967c-728c-403f-a0d0-78e742d0288a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WorldManager">
+      <UniqueIdentifier>{05d9e02e-c0f5-4d9d-8be2-c5d74d661ed3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WorldManager\World">
+      <UniqueIdentifier>{281c3744-6dbd-47e0-90ec-5de09089e3b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math">
+      <UniqueIdentifier>{9cf9e924-657f-43f1-9902-0c8769171b61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math\Utilities">
+      <UniqueIdentifier>{de405949-f65e-4462-a844-7ea1156f03ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math\Vector">
+      <UniqueIdentifier>{fb05e1e5-b0c8-407c-87cb-ecfccd0c974e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math\Matrix">
+      <UniqueIdentifier>{3422210a-d320-4327-9a23-f46fbab196a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Third Party">
+      <UniqueIdentifier>{128a1d8a-63b7-46ee-983e-b922f9feb864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Third Party\INIReader">
+      <UniqueIdentifier>{9bb053bf-9400-4179-93f8-0be9e8f7464a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Third Party\RapidJSON">
+      <UniqueIdentifier>{fbb77b3f-1af8-4c4f-81fc-8b7035830357}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Third Party\DirectXTex">
+      <UniqueIdentifier>{ed072ca1-d968-4eec-8931-94325fdf2b6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\FrameCounter">
+      <UniqueIdentifier>{345da941-9dcf-4be7-8d4d-f7ada96a4f26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Systems\GameObjectFactory">
+      <UniqueIdentifier>{abac2907-db2f-4875-8632-432a4d00de1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Input\InputComponent">
+      <UniqueIdentifier>{d783dab5-df50-4cc4-99de-def245ef51d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WorldManager\Camera">
+      <UniqueIdentifier>{000827bb-513e-45a5-8cfa-bcd267d28844}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Systems\GraphicsSystem\Material">
+      <UniqueIdentifier>{9e680e8b-483a-42b0-8aea-92ddae55ae89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Systems\GraphicsSystem\Shader">
+      <UniqueIdentifier>{dfd9825e-fb14-4d6f-a692-93b290099d8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Systems\GraphicsSystem\Texture">
+      <UniqueIdentifier>{21c7d8bf-51c5-417b-bb76-ff677bc58404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Systems\GraphicsSystem\Model">
+      <UniqueIdentifier>{441b7f33-8f52-4518-9925-9ba734d350ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math\Collision">
+      <UniqueIdentifier>{b642281d-8ec0-4890-8bc6-e31e73f01dfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math\Algebra">
+      <UniqueIdentifier>{966a4da8-31f3-4b7b-9b60-1310b5058220}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ThirdParty\INIReader\ini.c">
+      <Filter>Source Files\Third Party\INIReader</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\INIReader\cpp\INIReader.cpp">
+      <Filter>Source Files\Third Party\INIReader</Filter>
+    </ClCompile>
+    <ClCompile Include="ISystem.cpp">
+      <Filter>Source Files\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files\Core\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="MessagesInput.cpp">
+      <Filter>Source Files\Core\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectFactory.cpp">
+      <Filter>Source Files\Systems\GameObjectFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="Messenger.cpp">
+      <Filter>Source Files\Core\Messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsSystem.cpp">
+      <Filter>Source Files\Systems\GraphicsSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture2D.cpp">
+      <Filter>Source Files\Systems\GraphicsSystem\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files\App\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSystem.cpp">
+      <Filter>Source Files\Systems\FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GameplaySystem.cpp">
+      <Filter>Source Files\Systems\GameplaySystem</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>Source Files\App</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameCounter.cpp">
+      <Filter>Source Files\Core\FrameCounter</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\Systems\GameObjectFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Source Files\Systems\GameObjectFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Source Files\Systems\GameObjectFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldManager.cpp">
+      <Filter>Source Files\WorldManager</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Source Files\WorldManager\World</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTarget.cpp">
+      <Filter>Source Files\Systems\GraphicsSystem\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>Source Files\Systems\GraphicsSystem\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Source Files\Systems\GraphicsSystem\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsComponent.cpp">
+      <Filter>Source Files\Systems\GraphicsSystem\GraphicsComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsComponent.cpp">
+      <Filter>Source Files\Systems\PhysicsSystem\PhysicsComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="JSONData.cpp">
+      <Filter>Source Files\Systems\FileSystem\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="JSONUtility.cpp">
+      <Filter>Source Files\Systems\FileSystem\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="StringUtility.cpp">
+      <Filter>Source Files\Systems\FileSystem\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Source Files\Math\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Source Files\Math\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector4.cpp">
+      <Filter>Source Files\Math\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>Source Files\Math\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneComponent.cpp">
+      <Filter>Source Files\Systems\PhysicsSystem\SceneComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="InputComponent.cpp">
+      <Filter>Source Files\Core\Input\InputComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Subscriber.cpp">
+      <Filter>Source Files\Core\Messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\WorldManager\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files\Systems\GraphicsSystem\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsSystem.cpp">
+      <Filter>Source Files\Systems\PhysicsSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Source Files\Math\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Algebra.cpp">
+      <Filter>Source Files\Math\Algebra</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ThirdParty\INIReader\ini.h">
+      <Filter>Source Files\Third Party\INIReader</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\INIReader\cpp\INIReader.h">
+      <Filter>Source Files\Third Party\INIReader</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\rapidjson\rapidjson.h">
+      <Filter>Source Files\Third Party\RapidJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="ISystem.h">
+      <Filter>Source Files\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Source Files\Core\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Source Files\Core\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="MessagesInput.h">
+      <Filter>Source Files\Core\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectFactory.h">
+      <Filter>Source Files\Systems\GameObjectFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>Source Files\Core\Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="Subscriber.h">
+      <Filter>Source Files\Core\Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="Messenger.h">
+      <Filter>Source Files\Core\Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsSystem.h">
+      <Filter>Source Files\Systems\GraphicsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="MessagesGraphicsSystem.h">
+      <Filter>Source Files\Systems\GraphicsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2D.h">
+      <Filter>Source Files\Systems\GraphicsSystem\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Source Files\App\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystem.h">
+      <Filter>Source Files\Systems\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GameplaySystem.h">
+      <Filter>Source Files\Systems\GameplaySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsSystem.h">
+      <Filter>Source Files\Systems\PhysicsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="InputParameters.h">
+      <Filter>Source Files\Core\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="App.h">
+      <Filter>Source Files\App</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameCounter.h">
+      <Filter>Source Files\Core\FrameCounter</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Source Files\Systems\GameObjectFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Source Files\Systems\GameObjectFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Source Files\Systems\GameObjectFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\DirectXTex\Include\DirectXTex.h">
+      <Filter>Source Files\Third Party\DirectXTex</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Source Files\WorldManager\World</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldManager.h">
+      <Filter>Source Files\WorldManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MessagesWorldManager.h">
+      <Filter>Source Files\WorldManager</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTarget.h">
+      <Filter>Source Files\Systems\GraphicsSystem\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexDeclarations.h">
+      <Filter>Source Files\Systems\GraphicsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Source Files\Systems\GraphicsSystem\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Source Files\Systems\GraphicsSystem\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsComponent.h">
+      <Filter>Source Files\Systems\GraphicsSystem\GraphicsComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsComponent.h">
+      <Filter>Source Files\Systems\PhysicsSystem\PhysicsComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXUtil.h">
+      <Filter>Source Files\Systems\GraphicsSystem\DirectXUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="JSONData.h">
+      <Filter>Source Files\Systems\FileSystem\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="JSONDefinitions.h">
+      <Filter>Source Files\Systems\FileSystem\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="JSONUtility.h">
+      <Filter>Source Files\Systems\FileSystem\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="StringUtility.h">
+      <Filter>Source Files\Systems\FileSystem\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Macros.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="MathLimits.h">
+      <Filter>Source Files\Math\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="MathConstants.h">
+      <Filter>Source Files\Math\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Source Files\Math\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Source Files\Math\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4.h">
+      <Filter>Source Files\Math\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Source Files\Math\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneComponent.h">
+      <Filter>Source Files\Systems\PhysicsSystem\SceneComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="InputComponent.h">
+      <Filter>Source Files\Core\Input\InputComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Source Files\WorldManager\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Deploy.h">
+      <Filter>Source Files\App</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsDefines.h">
+      <Filter>Source Files\Systems\GraphicsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Source Files\Systems\GraphicsSystem\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBuffers.h">
+      <Filter>Source Files\Systems\GraphicsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Source Files\Math\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes.h">
+      <Filter>Source Files\Math\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Algebra.h">
+      <Filter>Source Files\Math\Algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageFileRequest.h">
+      <Filter>Source Files\Systems\FileSystem</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shaders\VertexTexCoordColorVS.hlsl">
+      <Filter>Source Files\Systems\GraphicsSystem\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\VertexTexCoordColorPS.hlsl">
+      <Filter>Source Files\Systems\GraphicsSystem\Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

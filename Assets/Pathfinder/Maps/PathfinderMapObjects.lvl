@@ -1,0 +1,12 @@
+{
+	"PathfinderMapObjects.lvl": {
+		"WorldObjects": [
+			{
+				"Camera": {}
+			},
+			{
+				"PFTile": {}
+			}
+		]
+	}
+}
