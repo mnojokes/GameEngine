@@ -1,6 +1,6 @@
 # GameEngine
 
-[Running included projects](https://github.com/mnojokes/GameEngine/edit/main/README.md#running-included-projects)
+[Running included projects](https://github.com/mnojokes/GameEngine#running-included-projects)
 
 ## Introduction
 
